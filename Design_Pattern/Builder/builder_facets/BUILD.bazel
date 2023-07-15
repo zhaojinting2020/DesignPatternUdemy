@@ -1,0 +1,33 @@
+
+cc_library(
+    name = "Person",
+    srcs = ["Person.cpp"],
+    hdrs = ["Person.hpp"],
+    visibility = ["//visibility:public"],
+)
+
+cc_library(
+    name = "PersonBuilder",
+    srcs = ["PersonBuilder.cpp"],
+    hdrs = ["PersonBuilder.hpp"],
+    deps = [":Person"],
+    visibility = ["//visibility:public"],
+)
+
+cc_library(
+    name = "PersonAddressBuilder",
+    srcs = ["PersonAddressBuilder.cpp"],
+    hdrs = ["PersonAddressBuilder.hpp"],
+    deps = [":PersonBuilder", ":Person"],
+    visibility = ["//visibility:public"],
+)
+
+cc_library(
+    name = "PersonJobBuilder",
+    srcs = ["PersonJobBuilder.cpp"],
+    hdrs = ["PersonJobBuilder.hpp"],
+    deps = [":PersonBuilder", ":Person"],
+    visibility = ["//visibility:public"],
+)
+
+

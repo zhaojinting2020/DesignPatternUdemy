@@ -1,0 +1,26 @@
+{
+    "C_Cpp.updateChannel": "Insiders",
+    "C_Cpp.default.includePath": [
+      "${workspaceFolder}/**"
+    ],
+    "C_Cpp.default.defines": [],
+    "C_Cpp.default.cStandard": "c11",
+    "C_Cpp.default.cppStandard": "c++17",
+    "C_Cpp.default.compilerPath": "/usr/bin/g++",
+    "C_Cpp.default.intelliSenseMode": "gcc-x64",
+    "C_Cpp.formatting": "vcFormat",
+    "C_Cpp.errorSquiggles": "Enabled",
+    "C_Cpp.loggingLevel": "Debug",
+    "C_Cpp.autocomplete": "Enabled",
+    "C_Cpp.enhancedColorization": "Enabled",
+    "files.associations": {
+      "string": "cpp",
+      "sstream": "cpp",
+      "iosfwd": "cpp",
+      "ostream": "cpp",
+      "iostream": "cpp",
+      "typeindex": "cpp",
+      "typeinfo": "cpp"
+    }
+  }
+  
